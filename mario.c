@@ -8,8 +8,7 @@ int main(void)
         a = scanf("%d", &h);
         if (a == 0)
         {
-            while ((getchar()) != '\n')
-                ;
+            while ((getchar()) != '\n');
         }
     }
     while (a == 0 || h < 1 || h > 8);
@@ -35,4 +34,5 @@ int main(void)
         }
         printf("\n");
     }
+
 }
